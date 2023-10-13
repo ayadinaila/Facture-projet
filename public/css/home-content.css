@@ -1,0 +1,119 @@
+
+.grid-container
+{
+    /* margin-top: 0; */
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-auto-rows: minmax(200px,auto);
+    gap: 40px;
+    width: 70%;
+    height: fit-content;
+    margin-left: 250px;
+    margin-top: 120px;
+    justify-content: center;
+
+
+
+}
+.grid{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.item1
+{
+    background-color:#A10035;
+}
+.item2{
+    background-color:  #11101d;
+}
+.item3{
+    background-color:aliceblue;
+}
+.item4{
+    background-color:aliceblue;
+}
+
+.item1 .project-number h1{
+    font-family:  'Poppins', sans empattement ;
+    color: #D6D5A8;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.item1 .project-number p{
+    color: #D6D5A8;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.line{
+    position: relative;
+}
+.line:after{
+    content: "";
+    position: absolute;
+    left: 40px;
+    border-right: 1px solid #D6D5A8;
+    top: 8px;
+    height:150px;
+}
+.project-number{
+    display: flex;
+    color: #D6D5A8;
+    margin-left: 50px;
+    margin-top: 20px;
+    /* padding-left: 10px; */
+}
+.project-number .proforma{
+    padding-left: 80px;
+}
+.project-number h5{
+    padding-top: 20px;
+}
+.item2 h4{
+     font-family:  'Poppins', sans empattement ;
+    color: #D6D5A8;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.item2 .project-earning {
+    display: flex;
+    color: #D6D5A8;
+
+}
+
+.item2 .project-earning .line:after{
+    content: "";
+    position: absolute;
+    left: 30px;
+    border-right: 1px solid #D6D5A8;
+    top: 25px;
+    height:100px;
+}
+.project-earning .proforma{
+    padding-left: 20px;
+}
+
+.item2 .project-earning h5 , .item2 .project-earning h6{
+    font-family:  'Poppins', sans empattement ;
+    color: #D6D5A8;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.item2 .project-earning p{
+    color: #D6D5A8;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 2px;
+
+}
+.item3 h4,.item3 h5
+ {
+    font-family:  'Poppins', sans empattement ;
+    color:#11101d;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+ }

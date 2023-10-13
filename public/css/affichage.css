@@ -1,0 +1,104 @@
+.container-facture{
+    width: 21cm;
+    margin-top: 100px;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.document {
+    width: 21cm;
+    height: 29cm;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#fff;
+
+}
+​
+.header{
+    /* width: 18cm; */
+    margin: 5px 15px 5px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid green;
+}
+.header .title {
+    padding: 10px;
+    border-radius: 2px;
+}
+.header .title h1 {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+​
+.header .logo img {
+    width: 200px;
+}
+​
+.body .entreprise {
+    font-size: 12px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.body .client {
+    font-size: 12px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.body .client .client-information {
+    background-color: #e9e9e9;
+}
+.body .client .biling-date {
+    text-align: center;
+}
+​
+.body .content table {
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-top: 2px solid green;
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+.body .content table tbody tr {
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+​
+.body .footer-content {
+    margin: 20px;
+}
+.body .footer-content table {
+    width: 100%;
+}
+.body .footer-content table tr{
+    font-size: 14px;
+    text-align: right;
+}
+.body .note table {
+    font-size: 14px;
+    margin: 20px;
+    width: 100%;
+}
+.body .note table tr{
+    text-align: left;
+}
+.body .signature h5{
+    position: relative;
+    text-decoration: underline;
+    left:500px
+}
+.footer {
+    position: relative;
+    bottom: -150px;
+    margin: 20px;
+    border-top: 2px solid green ;
+}
+.footer table {
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}

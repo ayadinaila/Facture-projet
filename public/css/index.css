@@ -1,0 +1,152 @@
+
+.main-facture{
+/* background-color:#D6D5A8; */
+background-color:#ccd2c6;
+font-family :  'Poppins', sans empattement ;
+color: #1B1A17;
+
+}
+.image-logo{
+width:35%;
+}
+.login-form-logo{
+    position: absolute;
+    left: 500px;
+}
+.form i{
+margin-top: 3px;
+margin-left: 5px;
+z-index: 100;
+position: absolute;
+color: #1B1A17;
+    /* top: 30%;
+    left: 3%; */
+}
+.form .bi-eye{
+    font-size:15px;
+    margin-top: 3px;
+    margin-left: 320px;
+    z-index: 100;
+    position: absolute;
+    color: #1B1A17;
+        /* top: 30%;
+        left: 3%; */
+    }
+.login-form{
+    width:430px;
+    height:fit-content;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 480px;
+    top: 140px;
+    border-radius: 10px;
+    box-shadow:10px 15px 60px rgba(0,0,0,0.2);
+    /* width: fit-content; */
+}
+
+.sign-in
+{
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+    font-size:14px ;
+    letter-spacing: 0;
+    margin-top: -10px;
+
+}
+
+.form{
+
+    display: flex;
+    flex-direction:row;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* .form label{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+} */
+
+
+.form input
+{
+    position: relative;
+ width: 250px;
+ height: 37px;
+ margin-top: -10px;
+ margin-right: 20px;
+ padding-left: 40px;
+ /* border-radius: 7px; */
+ border-style: hidden;
+ font-family:  'Poppins', sans empattement ;
+ color: #1B1A17;
+ background-color:aliceblue;
+ opacity:0.7;
+ border: none;
+ border-bottom: 1px solid #1B1A17;
+ outline: 0;
+ border-width: 0 0 1px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+.submit input{
+    text-align: center;
+    margin-top:30px;
+    width:150px;
+    height: 53px;
+    font-family:'Poppins', sans empattement ;
+    background-color: #11101d;
+    font-size: 20px;
+    font-weight: bold;
+    color: #D6D5A8;
+    cursor: pointer;
+    border-style:outset;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color:#8c8d8f;
+
+
+
+}
+a{
+    text-decoration: none;
+}
+
+.login-form a{
+    display: block;
+    /* margin-top: 45px; */
+    font-size: 18px;
+    color: #11101d;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.form input:hover{
+box-shadow: 10px 15px 60px rgba(0,0,0,0.3);
+}
+
+.message-erreur
+{
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+}
+.submit input:hover{
+background-color: #D6D5A8;
+color: #1B1A17;
+}

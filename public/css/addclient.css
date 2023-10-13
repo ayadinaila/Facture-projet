@@ -1,0 +1,240 @@
+.content{
+    width: 700px;
+
+}
+.addclient {
+    width: 500px;
+    height: 520px;
+    overflow:scroll ;
+    background-color: aliceblue;
+    display: inline-block;
+    flex-direction: column;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: fixed;
+    left: 420px;
+    top: 90px;
+    border-radius: 10px;
+    box-shadow: 10px 15px 60px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins", sans empattement;
+    z-index: 100;
+    /* width: fit-content; */
+    /* transform: translate(-50%,-50%) scale(0); */
+    /* transition: 200ms ease-in-out; */
+}
+/* .addclient .active{
+    transform: translate(-50%,-50%) scale(1);
+} */
+.addclient .addclient-body  {
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.addclient-body .client h1 {
+    position: absolute;
+    left: 20px;
+    top: -7px;
+}
+
+.addclient-form {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+
+
+}
+
+
+.addclient-form label{
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.addclient-form div{
+      padding-top: 20px;
+}
+
+
+.addclient-form div input{
+    position: absolute;
+    left: 200px;
+    width: 230px;
+    height: 30px;
+    background-color: #d6d5a8;
+    background-color: #ccd2c6;;
+    font-family: "Poppins", sans empattement;
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.addclient-form #professional{
+width: 16px;
+left:30%;
+top: 28px;
+}
+
+.addclient-form  #particular{
+    left: 62%;
+    width: 16px;
+    top: 28px;
+}
+.addclient-form .type #type1{
+    margin-left: 110px;
+}
+.addclient-form .type #type2{
+    margin-left: 75px;
+
+}
+#add-client-professional .statut{
+    position: absolute;
+    left: 167px;
+   width: 230px;
+   height: 30px;
+   font-size: 15px;
+   padding-left: 15px;
+}
+.select-input {
+    width: 200px;
+    height: 34px;
+    background-color: #d6d5a8;
+    font-family: "Poppins", sans empattement;
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+}
+.submit-cancel-client
+{
+display: flex;
+flex-direction: row;
+position: relative;
+
+left: 120px;
+top: 40px;
+
+}
+.submit-cancel-client button{
+    margin-left: 25px;
+    width: 75px;
+    height: 32px;
+    /* background-color: #1d1b31;
+    color: #d6d5a8; */
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+    font-weight: 600;
+    /* padding-left: 8px; */
+    text-align: center;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    pointer-events: none;
+}
+
+.submit-cancel-client .submit-button{
+    background-color: #1d1b31;
+    color: #d6d5a8;
+    background-color: #3a4e51;
+    color: #ccd2c6;
+    pointer-events: none;
+}
+.submit-cancel-client .cancel-button{
+    background-color: #C21010;
+    color: #d6d5a8;
+}
+.submit-cancel-client button:hover{
+
+box-shadow:10px 15px 60px rgba(0,0,0,0.5);
+}
+
+::placeholder {
+
+    opacity: 0.4;
+    box-shadow:10px 15px 60px rgba(0,0,0,0.5);
+}
+
+#add-client-professional  .footer-client{
+
+    padding-left: 20px;
+    margin-right: 5px;
+
+
+}
+
+/* #add-client-pofessional  .footer-client button{
+
+    margin-left: 20px;
+    padding-right: 20px;
+
+} */
+
+
+#add-client-particular  .footer-client{
+    /* padding-left: 20px; */
+    margin-right: 5px;
+    margin-top: 80px;
+}
+/* #add-client-particular  .footer-client button{
+
+    margin-left: 20px;
+    padding-right: 20px;
+
+} */
+/* .addclient .show{
+    opacity: 1;
+    pointer-events:auto;
+} */
+
+/*
+#overlay
+{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    transition: 200ms ease-in-out;
+} */
+
+
+/* .active{
+    pointer-events: all;
+    opacity: 1;
+} */
+
+.addproduct-form{
+margin-top: 80px;
+}
+.addproduct-form .footer-produit {
+    margin-top: 28px;
+    margin-right: 20px;
+    }
+
+    .adduser{
+        width: 500px;
+        height: 350px;
+        overflow:scroll ;
+        background-color: aliceblue;
+        display: inline-block;
+        flex-direction: column;
+
+        /* justify-content: center; */
+        /* align-items: center; */
+        position: fixed;
+        left: 420px;
+        top: 125px;
+        border-radius: 10px;
+        box-shadow: 10px 15px 60px rgba(0, 0, 0, 0.2);
+        font-family: "Poppins", sans empattement;
+        z-index: 100;
+    }
+    .adduser .footeruser div{
+        margin-top: 35px;
+        margin-right: 20px;
+}

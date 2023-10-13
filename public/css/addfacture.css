@@ -1,0 +1,336 @@
+.addfacture {
+    width: 900px;
+    height: 560px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow: scroll;
+    margin-left: 300px;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 10px 15px 60px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins", sans empattement;
+    /* width: fit-content; */
+}
+
+.addfacture .addfacture-body {
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#addfacture-form{
+    height: fit-content;
+}
+.addfacture .addfacture-body .client {
+    display:flex;
+    flex-direction: row;
+}
+.addfacture .addfacture-body .produit {
+    display:flex;
+    flex-direction: column;
+}
+.facture h2 {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.addfacture-body #client-button{
+    right:-110px;
+    top: 0;
+}
+.addfacture-body #product-button{
+    right:-100px;
+    top: -53px;
+    color: #8c8d8f;
+    color:#ccd2c6;
+
+}
+.addfacture-body i {
+
+    /* position: absolute;
+    right: 4px;
+    top: 0px;
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color:#8c8d8f */
+
+    /* position: absolute; */
+    /* padding-top: 30px; */
+    font-size: 28px;
+    font-weight: bold;
+    pointer-events: none;
+    /* color:#8c8d8f; */
+    color: #ccd2c6;
+}
+
+
+.addfacture-form {
+    position: relative;
+    top: 70px;
+    left: 10px;
+}
+
+.addfacture-form form .client #client-facture {
+    margin-left: 74px;
+}
+#type-facture{
+    margin-left: 76px;
+    margin-bottom: 10px;
+}
+/* .addfacture-form form #client-button{
+    right:-5px;
+} */
+.addfacture-form form #product-button{
+    color:#8c8d8f;
+    color:#ccd2c6;
+
+}
+.select-input {
+    width: 200px;
+    height: 34px;
+    background-color: #d6d5a8;
+    font-family: "Poppins", sans empattement;
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+}
+
+.addfacture-form form .add {
+    margin-left: 25px;
+    width: 70px;
+    height: 32px;
+    background-color: #1d1b31;
+    background-color: #3a4e51;
+    color:#8c8d8f;
+    color: #ccd2c6;
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+    font-weight: 600;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.addfacture-form form #client-button {
+    position: absolute;
+    margin-top: 49px;
+    margin-right: 613px;
+    z-index: 100;
+    /* position: absolute; */
+    font-size: 16px;
+    color:#8c8d8f;
+    color:#ccd2c6;
+
+}
+.addfacture-form form .ajouter-produit  {
+    margin-left: 130px;
+    position:absolute;
+    margin-top: 27px;
+}
+.addfacture-form form .ajouter-produit i {
+        margin-right:50px;
+}
+.supprimer-produit{
+    margin-left: 220px;
+    position:absolute;
+    margin-top: 27px;
+}
+.addfacture-form form .ajouter-produit .product-bottom{
+    position:absolute;
+    top:25px;
+
+}
+.addfacture-form form .produit{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.addfacture-form form #partie_produit{
+margin-bottom: 10px;
+}
+
+.addfacture-form form .produit #produit-facture{
+    margin-left: 45px;
+}
+.addfacture-form form .produit #quantite-facture{
+    margin-left: 15px;
+}
+.addfacture-form form .produit input{
+    width: 80px;
+    height: 34px;
+    background-color: #d6d5a8;
+    background-color:#8ba88e;
+    font-family: "Poppins", sans empattement;
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+    color: #1b1a17;
+    margin-left: 5px;
+    padding-left: 10px;
+
+}
+.addfacture-form form .produit input::placeholder{
+    font-size: 16px;
+}
+.addfacture-form form #product-button{
+
+        margin-top: 62px;
+        margin-right: 150px;
+        z-index: 100;
+        position: absolute;
+        font-size: 16px;
+        color:#8c8d8f;
+        color:#ccd2c6;
+
+
+}
+.addfacture-form form .product-button-delete{
+    background-color: #C21010;
+    color: #d6d5a8;
+    padding-left: 15px;
+    right:-15px;
+
+
+}
+
+#product-button-delete{
+    margin-top: 10px;
+    right:55px;
+    z-index: 100;
+    position: absolute;
+    font-size: 12px;
+    color: #d6d5a8;
+}
+
+.submit-cancel
+{
+display: flex;
+flex-direction: row;
+position: relative;
+top: 50px;
+margin-left: 500px;
+}
+.submit-cancel button{
+    margin-left: 15px;
+    width: 110px;
+    height: 43px;
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+    font-weight: 600;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.submit-cancel .submit-button{
+    background-color: #1d1b31;
+    color: #d6d5a8;
+    background-color: #3a4e51;
+    color: #ccd2c6;
+
+}
+.submit-cancel .cancel-button{
+    background-color: #C21010;
+    color: #d6d5a8;
+    color:#ccd2c6;
+}
+.submit-cancel button:hover{
+
+box-shadow:10px 15px 60px rgba(0,0,0,0.2);
+}
+
+.btn-primary a{
+    color:#8c8d8f;
+    color:#ccd2c6;
+}
+
+/* .btn-primary a:hover{
+
+        background-color: #8c8d8f;
+        color:#11101d;
+
+} */
+
+.produit textarea{
+    background-color: #d6d5a8;
+    background-color:#8ba88e;
+    font-family: "Poppins", sans empattement;
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.services #prix_service_facture
+{
+    position:absolute;
+    margin-top:25px;
+    margin-left: 10px;
+    width:120px;
+}
+#prix-facture{
+    width: 120px;
+    margin-left: 5px;
+}
+.add_delete
+{
+    margin-left: -35px;
+}
+
+#remise-facture
+{    position:absolute;
+    margin-top:25px;
+    margin-left: 150px;
+    width:120px;
+
+
+}
+.prix{
+    display: flex;
+    flex-direction: row;
+}
+/* .prix #prix-final
+{
+    position:absolute;
+     margin-top:97px;
+    left: 110px;
+    width:120px;
+}
+
+.prix #prix-tva
+{
+    position:absolute;
+     margin-top:97px;
+    left: 180px;
+    width:120px;
+}
+.prix #prix-ttc
+{
+    position:absolute;
+     margin-top:97px;
+   margin-left: 270px;
+    width:120px;
+} */
+
+.prix-facture #prix-final ,#prix-tva,#prix-ttc
+{
+    width:120px;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.prix-facture{
+    margin-left: 110px;
+}
+#enregistrer
+{
+    background-color:#8c8d8f;
+    background-color: #323e45;
+}
